@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <img class="nav-logo" src="img/logo.png" alt="Bank-Logo">
+            <ul class="nav-links">
+                <li class="nav-element">
+                    <a class="nav-link" href="#section1">Features</a>
+                </li>
+                <li class="nav-element">
+                    <a class="nav-link" href="#section2">Operations</a>
+                </li>
+                <li class="nav-element">
+                    <a class="nav-link" href="#section3">Testimonials</a>
+                </li>
+                <li class="nav-element">
+                    <a class="nav-link nav-link-btn" href="#">Open Account</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+         <div class="modal-window hidden">
+        <button class="close-btn">&#10006;</button>
+        <h2 class="modal-heading">Personal Info</h2>
+        <form class="personal-info" action="">
+            <div>
+                <div class="info">
+                    <label class="label-info" for="name">Full Name</label>
+                    <input id="name" class="input-info" type="text">
+                </div>
+                <div class="info">
+                    <label  class="label-info" for="gender">Select Gender</label>
+                    <select name="gender" id="gender-select"  class="input-info">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="info">
+                    <label class="label-info" for="country">Country</label>
+                    <input id="country" class="input-info" type="text">
+                </div>
+                <div> 
+                    <button  class="submit-btn" type="submit">submit</button>
+                </div>
+            </div>
+        </form>
+   </div> 
+   <div class="modal-container hidden" > </div>
+
+   
+    
+    <script src="script.js"></script>
+</body>
+</html>
